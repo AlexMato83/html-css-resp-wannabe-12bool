@@ -1,0 +1,65 @@
+
+/* inizio Query smartphone */
+@media screen and (max-width: 419px) {
+
+  #lezioni .row > .left, #lezioni .row > .right{
+    width: 100%;
+    float: left;
+    font-size: xx-large;
+  }
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right{
+    float: left;
+    width: 100%;
+    font-size: xx-large;
+  }
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
+    width: 100%;
+    margin-top: 80px;
+    font-size: xx-large;
+  }
+}
+/* fine Query smartphone --------*/
+
+/* inizio QUERY HD Desktop   --------- */
+@media screen and (max-width:1200px){
+  body {
+    font-size: x-large;
+  }
+}
+/* fine QUERY HD Desktop --------------*/
+
+/* inizio QUERY per Standard 1920 --*/
+@media screen and (min-width: 1201px) {
+
+   #lezioni .row {
+     width:100%;
+     font-size: xx-large;
+   }
+   #steps .row {
+     width: 100%;
+     font-size: xx-large;
+   }
+
+   #why .row {
+     width: 100%;
+     font-size: xx-large;
+   }
+   #why .row > .first,
+   #why .row > .second,
+   #why .row > .third {
+     width: 33.3%;
+     margin-top: 80px;
+     float: left;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+   img{
+     height: 280px;
+   }
+}
+/*  fine QUERY per Standard 1920--- */
