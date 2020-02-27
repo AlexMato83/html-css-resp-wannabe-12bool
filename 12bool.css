@@ -17,10 +17,104 @@
 
 [class*="col-"] {
 
-  
+
 }
-/* versione mobile xs------------------ */
-@media screen and (max-width:768px){
+
+/* versione smartphone xxs------------------ */
+@media screen and (max-width:590px){
+
+  .col-xxs-1 {
+    width: calc(100% / 12);
+    float: left;
+  }
+  .col-xxs-2 {
+    width: calc((100% / 12)*2);
+    float: left;
+  }
+  .col-xxs-3 {
+    width: calc((100% / 12)*3);
+    float: left;
+  }
+
+  .col-xxs-4 {
+    width: calc((100% / 12)*4);
+    float: left;
+  }
+  .col-xxs-5 {
+    width: calc((100% / 12)*5);
+    float: left;
+  }
+  .col-xxs-6 {
+    width: calc((100% / 12)*6);
+    float: left;
+  }
+  .col-xxs-7 {
+    width: calc((100% / 12)*7);
+    float: left;
+  }
+  .col-xxs-8 {
+    width: calc((100% / 12)*8);
+    float: left;
+  }
+  .col-xxs-9 {
+    width: calc((100% / 12)*9);
+    float: left;
+  }
+  .col-xxs-10 {
+    width: calc((100% / 12)*10);
+    float: left;
+  }
+  .col-xxs-11 {
+    width: calc((100% / 12)*11);
+    float: left;
+  }
+  .col-xxs-12 {
+    width: calc((100% / 12) *12);
+    float: left;
+  }
+
+  /* regole di OFFset---------------- */
+
+  .col-xxs-offset-1 {
+    margin-left: calc(100% / 12);
+  }
+  .col-xxs-offset-2 {
+    margin-left: calc(100% / 12)*2;
+  }
+  .col-xxs-offset-3 {
+    margin-left: calc(100% / 12)*3;
+  }
+  .col-xxs-offset-4 {
+    margin-left: calc(100% / 12)*4;
+  }
+  .col-xxs-offset-5 {
+    margin-left: calc(100% / 12)*5;
+  }
+  .col-xxs-offset-6 {
+    margin-left: calc(100% / 12)*6;
+  }
+  .col-xxs-offset-7 {
+    margin-left: calc(100% / 12)*7;
+  }
+  .col-xxs-offset-8 {
+    margin-left: calc(100% / 12)*8;
+  }
+  .col-xxs-offset-9 {
+    margin-left: calc(100% / 12)*9;
+  }
+  .col-xxs-offset-10 {
+    margin-left: calc(100% / 12)*10;
+  }
+  .col-xxs-offset-11 {
+    margin-left: calc(100% / 12)*11;
+  }
+  .col-xxs-offset-12 {
+    margin-left: calc(100% / 12)*12;
+  }
+}
+/*  fine versione Smarphone XXS---------------- */
+/* versione mobile xs------------------ ---*/
+@media screen and (min-width:591px) and (max-width:768px){
 
   .col-xs-1 {
     width: calc(100% / 12);
@@ -114,7 +208,7 @@
 /*  fine versione MOBILE XS---------------- */
 /* inizio versione IPAD MD----------------- */
 
-@media screen and (min-weidth: 769px) and (max-weidth:992px){
+@media screen and (min-width: 769px) and (max-width:992px){
 
   .col-md-1 {
     width: calc(100% / 12);
