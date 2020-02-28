@@ -11,3 +11,9 @@ img {
   height: 150px;
   width: 150px;
 }
+
+#cademi img {
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 30px;
+}
